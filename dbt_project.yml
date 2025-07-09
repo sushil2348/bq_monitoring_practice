@@ -1,0 +1,9 @@
+name: 'bq_monitoring_practice'
+version: '1.0.0'
+config-version: 2
+
+profile: 'bq_monitoring_practice'
+
+model-paths: ["models"]
+target-path: "target"
+clean-targets: ["target", "dbt_modules"]
